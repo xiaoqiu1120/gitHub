@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="468.0" prefWidth="770.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141"
+fx:controller="application.TableViewController"
+>
+   <children>
+      <TableView  fx:id="userInfoTable" layoutX="14.0" layoutY="21.0" prefHeight="429.0" prefWidth="739.0">
+        <columns>
+          <TableColumn fx:id="IPAddress" prefWidth="75.0" text="IP地址" />
+          <TableColumn fx:id="loginNum" prefWidth="75.0" text="登录账号" />
+            <TableColumn fx:id="password" prefWidth="75.0" text="密码" />
+            <TableColumn fx:id="mac" prefWidth="75.0" text="MAC地址" />
+            <TableColumn fx:id="diskID" prefWidth="75.0" text="硬盘ID号" />
+            <TableColumn fx:id="messageDate" prefWidth="88.0" text="消息日期" />
+            <TableColumn fx:id="isDownload" prefWidth="186.0" text="文件下载是否成功" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
